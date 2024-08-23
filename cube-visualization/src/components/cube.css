@@ -21,6 +21,14 @@ body{
 }
 h1{
     font-family: 'Orbitron', 'sans-serif';
+    font-size: 40px;
+    text-shadow:
+      0 0 4px #fff,
+   
+      0 0 38px #f09,
+      0 0 73px #f09,
+     
+      0 0 140px #f09;
 }
 .container {
     display: flex; 
@@ -45,7 +53,12 @@ h1{
     background-image: linear-gradient(to right, rgba(12, 149, 7, 0.618), rgb(3, 24, 51) , rgba(12, 149, 7, 0.618));
     border-radius: 10px;
     padding: 20px;
-    
+    border: 0.2rem solid #319e6f;
+  border-radius: 2rem;
+
+  box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #13fe32;
 }
 
 .value{
