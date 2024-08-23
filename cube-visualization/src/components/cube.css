@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+
+
+body{
+    
+    background-image: linear-gradient(to right, rgb(30, 2, 30) , rgb(8, 22, 101), rgb(30, 2, 30));
+    color:white;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+h1{
+    font-family: 'Orbitron', 'sans-serif';
+}
+.container {
+    display: flex; 
+    align-items: center; /* Centers items vertically */
+}
+
+
+.bigcube{
+    flex-wrap: nowrap;
+}
+
+.slider_value_topview{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-right: 20px;
+
+}
+.slider{
+
+    -ms-flex-align:center;
+    background-image: linear-gradient(to right, rgba(12, 149, 7, 0.618), rgb(3, 24, 51) , rgba(12, 149, 7, 0.618));
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.value{
+    background-image: linear-gradient(to right, rgb(165, 11, 165) , rgb(14, 37, 171), rgb(165, 11, 165));
+    border-radius: 10px;
+}
